@@ -30,7 +30,7 @@ class AuthPage extends Component {
             }
             
         }
-        document.location.href=this.props.path+":3000"+"/home"
+        document.location.href=this.props.path+"/home"
         /*Axios.post(path,{
             email:this.state.email,
             password:this.state.password

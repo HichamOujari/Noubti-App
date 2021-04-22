@@ -7,7 +7,7 @@ import Accueil from "./componants/accueil/index"
 import Paiement from "./componants/paiement/index"
 
 const port = "3001"
-const path = "http://10.72.126.190"
+const path = "https://noubti-app.vercel.app"
 
 function App() {
   return (

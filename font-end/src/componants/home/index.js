@@ -63,7 +63,7 @@ class Home extends Component {
                     <div className="Eles">
                         {
                             this.data.map((ele,index)=>{
-                                return (<Ele ID={index} IdAgence={ele.id} path={this.props.path+":3000"} title={ele.nom} distance={ele.distance} att={ele.att} />)
+                                return (<Ele ID={index} IdAgence={ele.id} path={this.props.path} title={ele.nom} distance={ele.distance} att={ele.att} />)
                             })
                         }
                     </div>
