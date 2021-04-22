@@ -3,7 +3,7 @@ import "./style.css"
 import {Link} from "react-router-dom"
 
 const Lien = ({props}) =>{
-    if(props.ext===true) return <a rel="noreferrer"  target="_blank" href={props.path}>{props.title}</a>
+    if(props.ext===true) return <a rel="noreferrer" href={props.path}>{props.title}</a>
     else return <Link to={props.path}>{props.title}</Link>
 }
 
