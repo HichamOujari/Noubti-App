@@ -1,0 +1,45 @@
+.NavbarComp{
+    background-color: #0062a9;
+    display: flex;
+    color: white;
+    font-size: 24px;
+    font-weight: 750;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    align-items: center;
+    height: 40px;
+}
+
+.NavbarComp>.icon{
+    font-size: 34px;
+    margin-right: 10px;
+}
+.NavbarComp>.title{
+    text-transform: capitalize;
+}
+
+
+.CardPayComp{
+    width: Calc(100% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #0062a9;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+
+.CardPayComp>img{
+    margin-top: 10px;
+
+}
+
+
+.CardPayComp>a{
+    color: black;
+    margin-bottom: 10px;
+}

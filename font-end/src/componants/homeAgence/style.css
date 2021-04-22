@@ -1,0 +1,63 @@
+.MainHomeAgence{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.MainHomeAgence>.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: Calc(100vh - 40px);
+}
+.MainHomeAgence>.content>.Accueil{
+    margin-bottom: 20vh;
+}
+.MainHomeAgence>.content>.Accueil,.MainHomeAgence>.content>.pay{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MainHomeAgence>.content>.Accueil>.left,.MainHomeAgence>.content>.pay>.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainHomeAgence>.content>.Accueil>.left>img{
+    
+}
+.MainHomeAgence>.content>.Accueil>.left>.title,.MainHomeAgence>.content>.pay>.left>.title{
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+}
+
+.MainHomeAgence>.content>.Accueil>.right,.MainHomeAgence>.content>.pay>.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.MainHomeAgence>.content>.Accueil>.right>.nbr_Icon,.MainHomeAgence>.content>.pay>.right>.nbr_Icon{
+    display: flex;
+}
+.MainHomeAgence>.content>.Accueil>.right>.nbr_Icon>.nbr,.MainHomeAgence>.content>.pay>.right>.nbr_Icon>.nbr{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.MainHomeAgence>.content>.Accueil>.right>.nbr_Icon>.icon,.MainHomeAgence>.content>.pay>.right>.nbr_Icon>.icon{
+    font-size: 40px;
+}
+
+.MainHomeAgence>.content>.Accueil>.right>.text,.MainHomeAgence>.content>.pay>.right>.text{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.MainHomeAgence>.content>.pay{
+    
+}

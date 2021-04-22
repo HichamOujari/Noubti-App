@@ -1,0 +1,118 @@
+.MainAuth{
+    background-color: rgba(221, 221, 221, 0.411);
+    height: 100vh;
+}
+.MainAuth>.top{
+    background-color: #00314a;
+    color: white;
+}
+.MainAuth>.top>.title{
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.MainAuth>.top>.login_regist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MainAuth>.top>.login_regist>a{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 1.7px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-bottom: 3px solid transparent;
+    transition: 1s;
+    transform-origin: all;
+}
+.MainAuth>.top>.login_regist>.active,.MainAuth>.top>.login_regist>a:hover{
+    background-color: #0b4563c7;
+    border-bottom: 3px solid white;
+}
+.MainAuth>.iconProfil{
+    font-size: 170px;
+    color: #073750dc;
+    margin-top: 3vh;
+    width: 100%;
+}
+.MainAuth>.formAuth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 3vh;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.MainAuth>.formAuth>.AuthInput{
+    width: 90%;
+    height: 30px;
+    border: none;
+    background-color: #f1f5f7;
+    color: rgb(53, 50, 50);
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.MainAuth>.formAuth>.showPass{
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15vh;
+}
+
+.MainAuth>.formAuth>.showPass>input{
+    cursor: pointer;
+}
+
+.MainAuth>.formAuth>.showPass>label{
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.MainAuth>.formAuth>.btnSubmit{
+    position: absolute;
+    bottom: 20px; 
+    color: white;
+    font-size: 25px;
+    background-color: #0062a9;
+    padding-top: 7px;
+    padding-bottom: 9px;
+    align-items: center;
+    width: 90%;
+    text-align: center;
+    border: none;
+    height: 47px;
+    bottom: 10;
+    cursor: pointer;
+}
+.errorAuth{
+    color:rgba(255, 0, 0, 0.699);
+    border: 1px solid rgba(255, 0, 0, 0.877);
+    border-radius: 6px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    background-color: rgba(255, 0, 0, 0.295);
+}
